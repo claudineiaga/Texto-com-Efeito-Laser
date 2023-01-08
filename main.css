@@ -1,0 +1,35 @@
+.page-laser-to-text {
+    position: relative;
+    overflow: hidden;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+    canvas {
+      display: block;
+    }
+  
+    input {
+      position: absolute;
+      bottom: 50px;
+      left: 1%;
+      right: 0;
+      display: block;
+      outline: none;
+      background-color: rgba(38, 50, 56, 0.2);
+      color: #ffffff;
+      border: none;
+      width: 50%;
+      max-width: 100%;
+      margin: auto;
+      height: 60px;
+      line-height: 60px;
+      font-size: 20px;
+      padding: 0 20px;
+    }
+      &:hover, &:focus {
+        border: 1px solid rgba(38, 50, 56, 0.6);
+      }
+  
+      &::-webkit-input-placeholder {
+        color: rgba(#ffffff, 0.1);
+      }
